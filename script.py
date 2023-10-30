@@ -1,6 +1,3 @@
-Of course! Here's the script with added comments to explain each step:
-
-```python
 """
 This script processes video files from a specified folder to generate a GPX file containing GPS data.
 The GPX file will be named "Output-<folder_name>.gpx" and will be placed inside the folder.
@@ -12,7 +9,7 @@ Replace script_name.py with the name of this script.
 Provide the path to the video folder in quotes if it contains spaces or special characters.
 
 Example:
-python script_name.py "I:\\RL\\JareReisib 2023\\Rein\\2023-07-17\\Unsaved\\800-\\"
+python script_name.py "C:\\Users\\john\\Garmin\\Unsaved\\001\\"
 """
 
 import re
@@ -119,6 +116,3 @@ print("GPX file generated successfully!")
 # Remove temporary files to clean up
 os.remove(exiftooloutput)
 os.remove(exiftooloutputchg)
-```
-
-This script now has comments explaining each step in detail.
